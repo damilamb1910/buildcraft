@@ -1,0 +1,62 @@
+footer{
+    height: max-content;
+    display: flex;
+    background-color: #151F28 ;
+    flex-direction: column;
+    align-items: center;
+    color: #E2EFEB;
+}
+
+footer h4{
+    font-size: 35px;
+}
+.formulario__container{
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer__head{
+    width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 50px;
+margin-bottom: 50px;
+flex-wrap: wrap;
+}
+
+.pre__form{
+    width: 400px;
+}
+.name__marketing{
+    cursor: pointer;
+}
+.contactos__container{
+    display: flex;
+    flex-direction: column;
+}
+.contacto__item{
+    display: flex;
+    align-items: center;
+}
+.contacto__item{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.contacto__item svg{
+    margin-right: 10px;
+}
+@media only screen and  (max-width:600px) {
+        footer h3{
+            width: 80%;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .pre__form{
+            width: 400px;
+        }
+}

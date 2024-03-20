@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: black;
+    display: none;
+}
+.landing__container{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/img/img-home-greayscale.jpg');
+        background-size: cover;
+        background-position: center;
+}
+.landing__container button{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    color: #070B0E;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+}
+.landing__container button:hover{
+    background-color: #269dff ;
+    color: #FFFFFF;
+
+    
+}
+/* .nosotros{
+    padding-top: 115px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../../assets/img/nosotros-min.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+.nosotros h3{
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+    color: #FFFFFF;
+    border-bottom: 5px solid;
+    padding-bottom: 20px;
+}
+.nosotros p{
+    backdrop-filter: blur(10px);
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.home h2{
+    color: #FFFFFF;
+    font-size: 50px;
+    width: 700px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.88); 
+    border-radius: 10px;
+    font-weight: 400;
+
+}
+
+
+@media only screen and  (max-width:600px) {
+    
+    .img__home{
+        display: none;
+    }
+    /* .landing__container{
+        background-image: url('../../assets/img/img-home-min.jpg');
+        background-size: cover;
+        background-position: center;
+    } */
+    .home h2{
+        color: #FFFFFF;
+        left: 4vw;
+        font-size: 55px;
+        width: 350px;
+        text-shadow: 1px 1px 15px black;
+    }
+    h1{
+        display: none;
+    }
+    .nosotros p{
+        padding-left: 5vw;
+        padding-right: 5vw;
+        text-shadow: 1px 1px 8px black;
+        font-size: 20px;
+    }
+    .nosotros {
+        height: 600px;
+    }
+    
+}
