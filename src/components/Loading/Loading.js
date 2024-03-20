@@ -1,5 +1,5 @@
 import React from 'react'
-import CircleLoader from "react-spinners/CircleLoader";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import './loading.css'
 
 const Loading = ({loading}) => {
@@ -7,8 +7,8 @@ const Loading = ({loading}) => {
     <>
    
     <div className={loading ? 'loading__container' : 'loading__none'}>
-      <CircleLoader
-        color={"#FFDB48"} loading={loading} size={100}
+      <ClimbingBoxLoader
+        color={"#0446F1"} loading={loading} size={40}
         
 />
     </div>

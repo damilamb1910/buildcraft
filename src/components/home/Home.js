@@ -16,6 +16,13 @@ const Home = () => {
   useEffect(()=>{
     window.scrollTo(0,0)
     setLoading(true)
+    setTimeout(() => {
+      cambiarLoad();
+      window.scroll({
+        top:0,
+        behavior: "smooth",
+      });
+    }, "5000");
   },[])
   const handleClick = () => {
    
@@ -31,7 +38,7 @@ const Home = () => {
 
 
            <div className='landing__container'>
-          
+           <Loading loading={loading}/>
         <h1>Durlock GG</h1>
       <h2>Comprometidos con la excelencia en cada obra</h2>
       <a href="#contacto"><button>CONSTRUYAMOS JUNTOS</button></a>
