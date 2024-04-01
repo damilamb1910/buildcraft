@@ -59,4 +59,13 @@ flex-wrap: wrap;
         .pre__form{
             width: 400px;
         }
+        .footer__head{
+           justify-content: center;
+           align-items: center;
+        }
+        .pre__form{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
 }

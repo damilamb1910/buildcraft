@@ -69,9 +69,18 @@
 }
 
 @media only screen and  (max-width:600px) {
-    .servicios__card img{
-        width: 350px;
+    .servicios__card{
         
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+    }
+    .servicios__card img{
+        
+        margin-right: 10px;
+       
     }
    
     

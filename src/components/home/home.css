@@ -92,9 +92,8 @@ h1{
     } */
     .home h2{
         color: #FFFFFF;
-        left: 4vw;
-        font-size: 55px;
-        width: 350px;
+        font-size: 40px;
+        width: 340px;
         text-shadow: 1px 1px 15px black;
     }
     h1{

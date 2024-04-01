@@ -39,7 +39,7 @@ const Home = () => {
 
            <div className='landing__container'>
            <Loading loading={loading}/>
-        <h1>Durlock GG</h1>
+        <h1>Buildcraft</h1>
       <h2>Comprometidos con la excelencia en cada obra</h2>
       <a href="#contacto"><button>CONSTRUYAMOS JUNTOS</button></a>
       

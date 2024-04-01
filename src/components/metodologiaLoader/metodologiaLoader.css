@@ -62,3 +62,33 @@ filter: blur(6px) grayscale(100%);
     filter: none;
     transition: all 1s ease-out;
   }
+  @media only screen and  (max-width:850px) {
+  
+    .metodologiaLoader__container h4{
+        font-size: 16px;
+       padding: 12px;
+       
+    }
+    
+    .paso{
+        width: 70px;
+        
+        }
+    .metodologiaLoader__container h5{
+            font-weight: 700;
+            padding-top: 3px;
+            font-size: 8px !important;
+         
+         }
+         .forma{
+            
+            width: 100%;
+            height: 30px;
+           left: -10px;
+            z-index: 2;
+        }
+         
+  }
+  
+  
+   
