@@ -6,6 +6,7 @@
 .home{
     align-items: center;
     justify-content: center;
+    font-family: "Oswald";
 }
 h1{
     color: black;
@@ -67,7 +68,9 @@ h1{
     color: #FFFFFF;
     font-weight: 100;
 }
-
+h5{
+    margin-left:2vw;
+margin-right: 2vw;}
 .home h2{
     color: #FFFFFF;
     font-size: 50px;
@@ -91,10 +94,13 @@ h1{
         background-position: center;
     } */
     .home h2{
+        text-transform: uppercase;
         color: #FFFFFF;
-        font-size: 40px;
+        font-size: 28px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         width: 340px;
-        text-shadow: 1px 1px 15px black;
+        text-shadow: 1px 1px 15px #269dff;
     }
     h1{
         display: none;

@@ -5,6 +5,7 @@ footer{
     flex-direction: column;
     align-items: center;
     color: #E2EFEB;
+    font-family: "Oswald";
 }
 
 footer h4{
